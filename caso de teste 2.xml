@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>MYD</projectKey>
+    <exportDate>2022-12-08 19:59:49 UTC</exportDate>
+    <folders>
+        <folder fullPath="departaments" index="0"/>
+    </folders>
+    <testCases>
+        <testCase id="76221418" key="MYD-T1">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Beth Anath</createdBy>
+            <createdOn>2022-11-29 23:16:40 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[departaments]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja acessar lojas por departamentos]]></name>
+            <objective><![CDATA[Verificar possibilidade de guias de departamento]]></objective>
+            <owner>63812c38f48fbd9b62d5e3e9</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio acessar site]]></description>
+                        <expectedResult><![CDATA[Visualizar os departamentos]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio acessa as op&ccedil;&otilde;es de departamento]]></description>
+                        <expectedResult><![CDATA[Seleciona qual deseja visualizar<br /><br />]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Usu&aacute;rio escolhe as op&ccedil;&otilde;es entre masculino, feminino e infantil]]></description>
+                        <expectedResult><![CDATA[Faz seu pedido de forma mais r&aacute;pida]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

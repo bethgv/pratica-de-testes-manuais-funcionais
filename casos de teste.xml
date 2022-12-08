@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10001</projectId>
+    <projectKey>MYD</projectKey>
+    <exportDate>2022-12-08 19:56:36 UTC</exportDate>
+    <folders>
+        <folder fullPath="alertas" index="1"/>
+    </folders>
+    <testCases>
+        <testCase id="76221554" key="MYD-T6">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Beth Anath</createdBy>
+            <createdOn>2022-11-29 23:28:46 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[alertas]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Cliente deseja receber alertas de promoção]]></name>
+            <objective><![CDATA[para ter acesso a todas as promo&ccedil;&otilde;es]]></objective>
+            <owner>63812c38f48fbd9b62d5e3e9</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given Customer wants to receive alerts when logging in
+
+And accessing the site at login
+
+When On the next page receive superimposed alert
+
+Then Receive an alert with all available promotions]]></details>
+            </testScript>
+        </testCase>
+        <testCase id="76222284" key="MYD-T7">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Beth Anath</createdBy>
+            <createdOn>2022-11-29 23:40:15 UTC</createdOn>
+            <customFields/>
+            <folder><![CDATA[alertas]]></folder>
+            <issues>
+                <issue>
+                    <key>MYD-5</key>
+                    <summary><![CDATA[Como usuário desejo uma alerta de promoção logo após login]]></summary>
+                </issue>
+                <issue>
+                    <key>MYD-6</key>
+                    <summary><![CDATA[Como usuário desejo ter como acessar as opções ou desistir da opção]]></summary>
+                </issue>
+            </issues>
+            <labels/>
+            <name><![CDATA[Ciclo 2 de teste]]></name>
+            <owner>63812c38f48fbd9b62d5e3e9</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[]]></description>
+                        <expectedResult><![CDATA[]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
